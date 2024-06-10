@@ -1,0 +1,293 @@
+@charset "UTF-8";
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: #000000;
+  width: 100%;
+  height: 68px;
+}
+
+.logo_lista {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+/* Logo */
+.logo {
+  width: 171px;
+  height: 49px;
+  margin-left: 32px;
+}
+
+/* NavBar */
+.Lista_1 {
+  display: flex;
+  gap: 20px;
+}
+
+.Lista_1 a {
+  color: #FFFFFF;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Cadastro */
+.cadastro {
+  display: flex;
+  align-items: center;
+  margin-right: 32px;
+  gap: 32px;
+}
+
+.cadastro a {
+  color: #FFFFFF;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.cadastro button {
+  border-radius: 50px;
+  border: 0px;
+  cursor: pointer;
+  width: 231px;
+  height: 45px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* Seção de barra inicial */
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background: #D4D4D1;
+  width: 100%;
+  height: 301px;
+}
+
+.hero-text div {
+  margin-left: 32px;
+}
+
+.hero-text div h1 {
+  color: #000000;
+  font-size: 36px;
+  text-align: start;
+  width: 465px;
+  height: 129px;
+  margin: 0px;
+}
+
+.hero-text div p {
+  color: #B4B4B4;
+  font-size: 24px;
+  text-align: start;
+  width: 523px;
+  height: 58px;
+  margin: 0px;
+}
+
+.green {
+  width: 800px;
+  height: 301px;
+  background: #0B6623;
+  transform: skew(293deg);
+  position: absolute;
+  right: -452px;
+  top: 67px;
+}
+
+.yelow {
+  width: 800px;
+  height: 301px;
+  background: #FEBA05;
+  transform: skew(66deg);
+  position: absolute;
+  right: -679px;
+  top: 67px;
+}
+
+/* Seção de avaliação gratuita */
+.free-evaluation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.free-evaluation h2 {
+  color: #2D5128;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.free-evaluation input {
+  color: #2D5128;
+  font-size: 24px;
+  text-align: center;
+  width: 358px;
+  height: 40px;
+  border-radius: 50px;
+  margin: 0;
+}
+
+.free-evaluation button {
+  background: #2D5128;
+  color: #FFFFFF;
+  font-size: 24px;
+  text-align: center;
+  width: 281px;
+  height: 40px;
+  border-radius: 50px;
+  margin: 0;
+}
+
+/* Seção de facilidade em montar a loja */
+.store-setup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.store-setup h2 {
+  color: #000000;
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+}
+
+.store-setup p {
+  color: #D4D4D1;
+  font-size: 32px;
+  text-align: center;
+  margin: 0;
+}
+
+/* Seção de modelos de loja */
+.so_much_text_for_nothin {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.so_much_text_for_nothin section h2 {
+  color: #000000;
+  font-size: 20px;
+  text-align: start;
+}
+
+.so_much_text_for_nothin section p {
+  color: #000000;
+  font-size: 13px;
+  text-align: start;
+}
+
+/* Seção de avaliação gratuita 2 */
+.free-evaluation-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.free-evaluation-two h2 {
+  color: #000000;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.free-evaluation-two input {
+  color: #2D5128;
+  font-size: 24px;
+  text-align: center;
+  width: 358px;
+  height: 40px;
+  border-radius: 50px;
+  margin: 0;
+}
+
+.free-evaluation-two button {
+  background: #2D5128;
+  color: #FFFFFF;
+  font-size: 24px;
+  text-align: center;
+  width: 281px;
+  height: 40px;
+  border-radius: 50px;
+  margin: 0;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000000;
+  width: 100%;
+  height: 481px;
+  gap: 10px;
+}
+
+.logo_dark {
+  width: 212px;
+  height: 60px;
+}
+
+.footer-section {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-section-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-section-two h3 {
+  color: #FFFFFF;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-section-two div a {
+  color: #FFFFFF;
+  font-size: 16px;
+  text-decoration: none;
+  -moz-column-gap: 6px;
+       column-gap: 6px;
+}
+
+.footer-section-three {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0px;
+  font-family: "inter";
+}/*# sourceMappingURL=style.css.map */

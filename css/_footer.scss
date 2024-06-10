@@ -1,0 +1,44 @@
+footer{
+    @include Flex_center_two;
+
+    background: $black;
+
+    width: 100%;
+    height: 481px;
+    gap: 10px;
+}
+
+.logo_dark {
+    width: 212px;
+    height: 60px;
+}
+
+.footer-section {
+    display: flex;
+
+    gap: 10px;
+}
+
+.footer-section-two {
+    @include Flex_column;
+
+}
+
+.footer-section-two h3 {
+    color: $white;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.footer-section-two div a{
+    color: $white;
+    font-size: 16px;
+    text-decoration: none;
+    column-gap: 6px;
+}
+
+.footer-section-three {
+    @include Flex_column;
+}

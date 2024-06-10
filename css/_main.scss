@@ -1,0 +1,199 @@
+/* Seção de barra inicial */
+.hero-text {
+    @include column;
+    
+    background: $gray;
+
+    width: 100%;
+    height: 301px;
+    
+}
+
+.hero-text  div{
+    margin-left: 32px;
+    
+}
+
+.hero-text  div h1{
+    color: $black;
+    font-size: 36px;
+    text-align: start;
+    
+    width: 465px;
+    height: 129px;
+
+    margin: 0px;
+}
+
+.hero-text  div p{
+    color: $dark_gray;
+    font-size: 24px;
+    text-align: start;
+    
+    width: 523px;
+    height: 58px;
+
+    margin: 0px;
+}
+
+.green {
+    width: 800px;
+    height: 301px;
+    background: $dark_green;
+    transform: skew(293deg);
+
+    position: absolute;
+    right: -452px;
+    top: 67px;
+}
+
+.yelow {
+    width: 800px;
+    height: 301px;
+    background: $burned_yelow;
+
+    transform: skew(66deg);
+
+    position: absolute;
+    right: -679px;
+    top: 67px;
+}
+
+/* Seção de avaliação gratuita */
+
+.free-evaluation {
+    @include Flex_column;
+    gap: 10px;
+
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.free-evaluation h2 {
+    color: $dark_dark_green;
+    font-size: 40px;
+    text-align: center;
+
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.free-evaluation input {
+    color: $dark_dark_green;
+    font-size: 24px;
+    text-align: center;
+
+    width: 358px;
+    height: 40px;
+    
+    border-radius: 50px;
+    margin: 0;
+}
+
+.free-evaluation button {
+    background: $dark_dark_green;
+
+    color: $white;
+    font-size: 24px;
+    text-align: center;
+
+    width: 281px;
+    height: 40px;
+    
+    border-radius: 50px;
+    margin: 0;
+}
+
+/* Seção de facilidade em montar a loja */
+
+.store-setup {
+    @include Flex_column;
+    gap: 10px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.store-setup h2{
+    color: $black;
+    font-size: 40px;
+    text-align: center;
+
+    margin: 0;
+}
+
+.store-setup p{
+    color: $gray;
+    font-size: 32px;
+    text-align: center;
+
+    margin: 0;
+}
+
+/* Seção de modelos de loja */
+
+.so_much_text_for_nothin {
+    @include Flex_top_start;
+
+    gap: 10px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.so_much_text_for_nothin section h2 {
+    color: $black;
+    font-size: 20px;
+    text-align: start;
+}
+
+.so_much_text_for_nothin section p {
+    color: $black;
+    font-size: 13px;
+    text-align: start;
+}
+
+/* Seção de avaliação gratuita 2 */
+
+.free-evaluation-two{
+    @include Flex_column;
+    gap: 10px;
+
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.free-evaluation-two h2 {
+    color: $black;
+    font-size: 40px;
+    text-align: center;
+
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.free-evaluation-two input {
+    color: $dark_dark_green;
+    font-size: 24px;
+    text-align: center;
+
+    width: 358px;
+    height: 40px;
+    
+    border-radius: 50px;
+    margin: 0;
+}
+
+.free-evaluation-two button {
+    background: $dark_dark_green;
+
+    color: $white;
+    font-size: 24px;
+    text-align: center;
+
+    width: 281px;
+    height: 40px;
+    
+    border-radius: 50px;
+    margin: 0;
+}
